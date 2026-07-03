@@ -1,0 +1,19 @@
+{
+  "Settings": {
+    "DelayBetweenRequestsSeconds": 3,
+    "UseProxy": false,
+    "ProxyAddress": "http://username:password@proxy_ip:proxy_port"
+  },
+  "TrackedGames": [
+    {
+      "GameName": "World of Warcraft",
+      "Url": "https://funpay.com/en/chips/2/",
+      "PlatformName": "FunPay"
+    },
+    {
+      "GameName": "Counter-Strike 2",
+      "Url": "https://funpay.com/lots/1350/",
+      "PlatformName": "FunPay"
+    }
+  ]
+}

@@ -46,13 +46,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "AngleSharp": {
-              "target": "Package",
-              "version": "[1.5.1, )"
-            },
             "EPPlus": {
               "target": "Package",
-              "version": "[8.6.1, )"
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.61.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
