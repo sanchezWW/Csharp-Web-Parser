@@ -9,9 +9,10 @@
       "Csharp-Web-Parser/1.0.0": {
         "dependencies": {
           "EPPlus": "7.2.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.0",
           "Microsoft.Playwright": "1.61.0",
-          "System.Drawing.Common": "9.0.0",
-          "System.Linq.Async": "7.0.1"
+          "System.CommandLine": "2.0.9",
+          "System.Drawing.Common": "9.0.0"
         },
         "runtime": {
           "Csharp-Web-Parser.dll": {}
@@ -114,6 +115,25 @@
           }
         }
       },
+      "Microsoft.Extensions.DependencyInjection/9.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -191,6 +211,55 @@
           }
         }
       },
+      "System.CommandLine/2.0.9": {
+        "runtime": {
+          "lib/net8.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.9.0",
+            "fileVersion": "2.0.926.27113"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/System.CommandLine.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.CommandLine.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.CommandLine.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.CommandLine.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.CommandLine.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.CommandLine.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.CommandLine.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.CommandLine.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.CommandLine.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.CommandLine.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.CommandLine.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.CommandLine.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.CommandLine.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "System.ComponentModel.Annotations/5.0.0": {},
       "System.Drawing.Common/9.0.0": {
         "dependencies": {
@@ -208,37 +277,6 @@
         }
       },
       "System.Formats.Asn1/8.0.0": {},
-      "System.Interactive.Async/7.0.1": {
-        "dependencies": {
-          "System.Linq.AsyncEnumerable": "10.0.6"
-        },
-        "runtime": {
-          "lib/net6.0/System.Interactive.Async.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.1.38638"
-          }
-        }
-      },
-      "System.Linq.Async/7.0.1": {
-        "dependencies": {
-          "System.Interactive.Async": "7.0.1",
-          "System.Linq.AsyncEnumerable": "10.0.6"
-        },
-        "runtime": {
-          "lib/netstandard2.1/System.Linq.Async.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.1.38638"
-          }
-        }
-      },
-      "System.Linq.AsyncEnumerable/10.0.6": {
-        "runtime": {
-          "lib/net9.0/System.Linq.AsyncEnumerable.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.626.17701"
-          }
-        }
-      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "dependencies": {
           "System.Formats.Asn1": "8.0.0"
@@ -329,6 +367,20 @@
       "path": "microsoft.extensions.configuration.json/8.0.0",
       "hashPath": "microsoft.extensions.configuration.json.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyInjection/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MCPrg7v3QgNMr0vX4vzRXvkNGgLg8vKWX0nKCWUxu2uPyMsaRgiRc1tHBnbTcfJMhMKj2slE/j2M9oGkd25DNw==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -378,6 +430,13 @@
       "path": "microsoft.win32.systemevents/9.0.0",
       "hashPath": "microsoft.win32.systemevents.9.0.0.nupkg.sha512"
     },
+    "System.CommandLine/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SW0WhEk4NFVZ4lOnsLrHQOV/7s0eTidezNybHQWXfqhuXWB17X3RXbrifeWBbUx1iu+NcYchVSufmW7svjUEnA==",
+      "path": "system.commandline/2.0.9",
+      "hashPath": "system.commandline.2.0.9.nupkg.sha512"
+    },
     "System.ComponentModel.Annotations/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -398,27 +457,6 @@
       "sha512": "sha512-AJukBuLoe3QeAF+mfaRKQb2dgyrvt340iMBHYv+VdBzCUM06IxGlvl0o/uPOS7lHnXPN6u8fFRHSHudx5aTi8w==",
       "path": "system.formats.asn1/8.0.0",
       "hashPath": "system.formats.asn1.8.0.0.nupkg.sha512"
-    },
-    "System.Interactive.Async/7.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oL1iox7sAJL8i+muGzVMQjDB0axQgOoT5CkwYdap8cQJMkWDWMRErNqhOcZkn31+aKr/uCfgMEdhUARCU4G7gg==",
-      "path": "system.interactive.async/7.0.1",
-      "hashPath": "system.interactive.async.7.0.1.nupkg.sha512"
-    },
-    "System.Linq.Async/7.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gwQtBHVY/WgqWgAYSe4JspXR+f1FvMbVIW4ixsJpGV/Kj8Nun3zp1ajIdvCWfmac8ektJGVLiJ/OR8JU9nZnMg==",
-      "path": "system.linq.async/7.0.1",
-      "hashPath": "system.linq.async.7.0.1.nupkg.sha512"
-    },
-    "System.Linq.AsyncEnumerable/10.0.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-1Ttf7dyLoKXks2bVBVULmDPOSjxaMEE3JRTe/KGEJl3rfepCc4ipUEGMIKa/iBKLSN8rjEedF8Qv3UCtiwaDBw==",
-      "path": "system.linq.asyncenumerable/10.0.6",
-      "hashPath": "system.linq.asyncenumerable.10.0.6.nupkg.sha512"
     },
     "System.Security.Cryptography.Pkcs/8.0.0": {
       "type": "package",

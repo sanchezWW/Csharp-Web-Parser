@@ -2,7 +2,8 @@
   "Settings": {
     "DelayBetweenRequestsSeconds": 3,
     "UseProxy": false,
-    "ProxyAddress": "http://username:password@proxy_ip:proxy_port"
+    "ProxyAddress": "http://username:password@proxy_ip:proxy_port",
+    "Headless": false
   },
   "TrackedGames": [
     {
